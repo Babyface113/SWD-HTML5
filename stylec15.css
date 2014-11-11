@@ -1,5 +1,8 @@
+body{
+	background: #eaeaea;
+}
 .site-wrapper{
-	width: 100%;
+	width: 1000px;
 	margin: 0px auto;
 }
 	.header{
@@ -25,20 +28,77 @@
 		.navigation select{
 			background: orange;
 			height: 40px;
-			margin-left: 100px;
+			margin-left: 5px;
 			margin-top: 5px;
 		}
 	.panel-left{
-		width: 60%;
-	}
-	.panel-right{
-		width: 40%;
+		width: 595px;
+		float: left;
+		margin-top: 10px;
 	}
 	.slider img{
-		width: 600px;
+		width: 595px;
 		height: 400px;
-		/*margin: 30px 0px 0px 250px;*/
+		margin-top: 20px;
 	}
-		/*.slider img{
+		.leftpanel, .rightpanel{
+			float: left;
+			width: 280px;
+			box-sizing: border-box;
+			margin: 5px;
+		}
+				.leftpanel img{
+					width: 260px;
+					height: 150px;
+				}
+				.rightpanel img{
+					width: 260px;
+					height: 150px;
+				}
+			.youtube{
+				background-color: white;
+			}
+			.twitter{
+				background-color: white;
+			}
+			.flash{
+				background-color: white;
+			}
+			.beats{
+				background-color: white;
+			}
+		.cleaner{
+			display: block;
+			clear: both;
+		}
+	.panel-right{
+		width: 395px;
+		float: right;
+		box-sizing: border-box;
+		margin-top: 30px;
+		padding-left: 10px;
+	}
+		.panel-right img{
+			width: 50px;
+			height: 50px;
+		}
+		.right-text{
+			float: right;
+			width: 300px;
+		}
+		.recent-post{
+			background: white;
+			height: 330px;
+		}
+		.searchbar{
+			background: white;
+			margin-top: 20px;
+			padding: 20px;
+		}
+		.recent-tweets{
+			background: white;
+			margin-top: 20px;
+			padding: 20px;
+		}
 
-		}*/
+
